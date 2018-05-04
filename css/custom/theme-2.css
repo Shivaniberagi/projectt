@@ -1,0 +1,82 @@
+/*============
+
+This file only contains the theme color schemes, (not the style ) If you want to change the color schemes of the theme 
+just change the color code  and rgba value. The whole theme color will be changed.
+
+===========*/
+
+
+
+
+
+/* Filter the 'background' value classes*/
+
+.switcher .switch_btn button,.btn-one,.header-search button,.features-section .single-item .icon-box i,.features-section .single-item:before,
+.features-section .features-title .title:before,.section-title h2:before,.service-section .service-content .single-item:hover,.fact-counter 
+.single-item .text:before,.about-section .year-text,.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span,
+.recent-project .project-content .single-item:before,.news-section .news-content .single-item:before,.awords-section,.main-footer 
+.footer-title h5:before,.btn-two:hover,.consultation-section h4:before,.our-history .history-sidebar .single-item h5:before,.our-team 
+.single-item .img-box:before,.our-team .owl-theme .owl-controls .owl-nav [class*="owl-"]:hover,.call-action:before,.about-bg:before,
+.service-page .single-item .lower-content:before,.service-details .sidebar-list li.current a,.service-details .sidebar-details 
+.content-style-two h3:before, .service-details .sidebar-details .content-style-three h3:before,.gallery-page .gallery_menu li.active,
+.blog-grid .sidebar-details .single-item .single-content:before,.link-btn li a:hover, .link-btn li a.active,.blog-page .sidebar 
+.search-box button,.blog-page .sidebar .sidebar-title:before,.blog-page .sidebar .subscribe-wideget .input-box button,
+.blog-page .sidebar .sidebar-tag li a.active,.blog-details .sidebar-details .news-style-two .claint-say:before,
+.blog-details .sidebar-details .post-share-option .list li:before,.blog-details .blog-single-section .title:before,.contact-section 
+.title-text:before,.service-details .sidebar .question .content .call,.main-menu .navbar-header .navbar-toggle .icon-bar,.scroll-to-top
+{
+	background: #fff;
+}
+
+
+/* background style two */
+
+
+.service-details .sidebar-list li.current a:before {
+    background: linear-gradient(403deg, #fff 45%, #48c7ec 50%, #48c7ec 56%, #48c7ec 80%);
+}
+
+.blog-page .sidebar .sidebar-catagories .list li a.active:before {
+    background: linear-gradient(403deg, #48c7ec 45%, #f6f8fa 50%, #f6f8fa 56%, #f6f8fa 80%);
+}
+
+
+/* Filter the 'color' value classes*/
+
+.main-menu .navigation > li:hover > a, .main-menu .navigation > li.current > a,.btn-one:hover,a:hover,.about-section  .about-content-area 
+.about-content .single-item a,.news-section .news-content .single-item .meta li span,h5 a:hover, h6 a:hover, h4 a:hover,.main-footer 
+.logo-wideget .logo-top a,.main-footer .logo-wideget .logo-bottom .footer-form button i:before.main-footer .service-widget 
+.list li:hover:before,.main-footer .post-widget .single-item .text span,.main-menu .navigation > li > ul > li:hover > a,.our-history 
+.single-item .load-btn a,.bread-crumb .text,.service-page .single-item .lower-content a i:before,.extra-service .button a,
+.service-details .sidebar-details .content-style-two .single-item .icon-box i:before,.service-details .sidebar-details 
+.content-style-three .accordion-box .acc-btn.active h5,.blog-grid .news-content .single-item .lower-content .button a i:before, 
+.blog-grid .news-content .single-item .lower-content .button a:hover,.blog-page .sidebar .sidebar-catagories .list li a.active, 
+.blog-page .sidebar .sidebar-catagories .list li a.active span,.blog-page .sidebar .sidebar-post .single-item  .text span,
+.blog-list .news-content .single-item .single-content .button i:before, .blog-list .news-content .single-item .single-content .button a:hover,
+.blog-details .sidebar-details .post-share-option .list li a:hover,.blog-details .blog-single-section .connent-area .comment-box .button a,
+.contact-section .contact-info .single-item .icon-box i:before,.news-section .news-content .single-item .lower-content .button a:hover,
+.service-page .single-item .lower-content .button a:hover,.bread-crumb .text a:hover
+ {
+	color:#48c7ec;
+}
+
+/* Filter the 'border color' value classes*/
+
+.btn-one,.btn-one:hover,.header-search button,.header-search .search input[type="text"], .header-search input[type="search"],.main-menu 
+.navigation > li > ul,.main-menu .navigation > li > ul > li > a,.btn-two:hover,.our-team .owl-theme .owl-controls .owl-nav 
+[class*="owl-"]:hover,.service-details .sidebar-list li.current a,.gallery-page .gallery_menu li,.link-btn li a:hover, .link-btn li a.active,
+.blog-page .sidebar .sidebar-tag li a.active
+{
+  border-color:#48c7ec;
+}
+
+
+/* change the theme logo for your own color schemes */
+
+.logo-box {
+    background: url(../../images/logo/logo1.png) no-repeat 9% 100%;
+}
+
+.footer-logo{
+  background: url(../../images/footer/logo1.png) no-repeat 9% 100%;
+}
